@@ -1,0 +1,68 @@
+body{
+    background-color: rgba(31, 89, 143, 0.288)
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+
+}
+#contact{
+    float: right;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+h1{
+  
+    font-family: 'Shadows Into Light Two', cursive;
+    
+}
+a {
+    font-family: 'Merienda', cursive;
+}
+.intro{
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Merienda', cursive;  
+    font-size: large;
+        }
+
+.portfolio{
+    
+    text-align: center;
+    font-family: 'Merienda', cursive;  
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    
+}
+    
+#port{
+    text-align: center;
+    color: rgba(31, 89, 143);
+    font-family: 'Marck Script', cursive;  
+    
+}
+
+
+.contact_section{
+    font-family: 'Merienda', cursive;  
+}
+
+img{
+    width:150px;
+    height: auto;
+    border-radius: 8px;
+    display: flex;
+}
+.portfolio::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.column{
+    float: left;
+    width: auto;
+  padding: 5px;
+}
