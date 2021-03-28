@@ -3,7 +3,7 @@ body{
 }
 
 footer{
-    position: fixed;
+    position: auto;
     bottom: 0;
 
 }
