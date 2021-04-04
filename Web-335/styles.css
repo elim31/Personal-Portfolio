@@ -20,23 +20,32 @@ h1{
 a {
     font-family: 'Merienda', cursive;
 }
-.intro{
-    margin-top: 50px;
-    text-align: center;
-    padding: 20px;
-    font-family: 'Merienda', cursive;  
-    font-size: large;
-        }
+/*Styling for row and gallery taken from W3Schools*/
+.row {
+    margin: 8px -16px;
 
-.portfolio{
-    
-    text-align: center;
-    font-family: 'Merienda', cursive;  
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-    
+  }
+
+.gallery{
+    float:left;
+    width: 25%;
+    padding: 5px;
 }
+ 
+  .gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
     
 #port{
     text-align: center;
