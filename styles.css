@@ -65,8 +65,12 @@ img{
     clear: both;
     display: table;
   }
-.column{
-    float: center;
+.col-sm{
+    float: flex;
     width: auto;
   padding: 5px;
+}
+
+figcaption{
+    display: flex;
 }
