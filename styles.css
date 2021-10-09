@@ -70,7 +70,9 @@ img{
     width: auto;
   padding: 5px;
 }
-
+.row{
+    display: inline-flex;
+}
 figcaption{
     display: flex;
 }
